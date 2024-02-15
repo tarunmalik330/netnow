@@ -1,5 +1,4 @@
 import React from "react";
-import AboutAlien from "../assets/images/png/AboutAlien.png";
 import AboutJupiter from "../assets/images/png/AboutJuipter.png";
 import AboutImg from "../assets/images/png/AboutImg.png";
 

@@ -59,7 +59,6 @@
   max-height: 811px !important;
   transform: scale(1);
   margin-top: -2px;
-  /* padding: 28px; */
   padding-left: 28px;
   padding-bottom: 27.96px;
   margin-top: -14px !important;
@@ -102,8 +101,6 @@
     opacity: 0;
   }
 
-  /* transform: skewY(4deg); */
-
   .Img_shadow {
     box-shadow: inset;
   }
@@ -118,9 +115,6 @@
   .content_opacity {
     opacity: 1;
   }
-
-  /* 
-  transform: skewY(0); */
 
   .Img_shadow {
     box-shadow: 0px 0px 46.70000076293945px 10px #374FD54D;
