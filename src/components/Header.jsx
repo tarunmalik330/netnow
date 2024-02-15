@@ -14,7 +14,7 @@ const Header = () => {
   }
   return (
     <>
-      <div className="bg-[url('./assets/images/png/BgHeader.png')] lg:bg-BgSize bg-cover bg-center bg-no-repeat relative z-[1]">
+      <div className="bg-[url('./assets/images/png/BgHeader.png')] lg:bg-BgSize bg-cover bg-center bg-no-repeat relative z-[5]">
         <img
           src={PinkJupiter}
           alt="PinkJupiter"
