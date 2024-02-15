@@ -8,11 +8,11 @@ const Roadmap = () => {
     dots: false,
     arrows: false,
     infinite: true,
-    speed: 500,
+    speed: 4000,
     centerMode: true,
     centerPadding: "5px",
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
