@@ -8,8 +8,21 @@ import Header from './components/Header';
 import Roadmap from './components/Roadmap';
 import Tokenomics from './components/Tokenomics';
 import BackToTop from "./assets/images/png/BackToTop.webp"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 function App() {
+  // -----------------------Aos-------------------------
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 1200,
+      }
+    );
+    Aos.refresh()
+  });
   // ----------------backToTop----------------
   const top = () => {
     document.documentElement.scrollTop = 0;

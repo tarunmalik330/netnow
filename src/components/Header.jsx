@@ -116,16 +116,24 @@ const Header = () => {
         </div>
         <div className="container mx-auto xl:max-w-[1174px] xl:px-3 px-6 sm:mt-[91px] mt-[20px] mb-[45px] relative z-[1]">
           <div className=" flex flex-col justify-center items-center">
-            <h1 className="text-white lg:text-[48px] sm:text-[40px] text-[28px] ff_archivo font-normal text-center leading-[121%] mb-[16px] max-w-[762px]">
+            <h1
+              className="text-white lg:text-[48px] sm:text-[40px] text-[28px] ff_archivo font-normal text-center leading-[121%] mb-[16px] max-w-[762px]"
+              data-aos="zoom-in-up"
+            >
               Join The NFT NOW Community and Metaverse
             </h1>
-            <p className=" text-white sm:text-[18px] text-[15px] font-medium leading-[150%] sm:mb-[40px] mb-[25px] text-center opacity-[80%] lg:max-w-[673px]">
+            <p
+              className=" text-white sm:text-[18px] text-[15px] font-medium leading-[150%] sm:mb-[40px] mb-[25px] text-center opacity-[80%] lg:max-w-[673px]"
+              data-aos="zoom-in-up"
+            >
               The soon to be revolutionary community that lets you learn and
               grow your knowledge about Anything NFT and Crypto.
             </p>
-            <button className="bg-gradient-to-br from-[#2C43D2] to-[#98B9F0] border-[2px] border-solid border-[#6C69EE] hover:border-white hover:shadow-[0_3px_20px_rgba(255,_255,_255,_1)] transition-all ease-linear duration-500 py-[12px] px-[33px] sm:text-[18px] text-[15px] font-semibold text-white rounded-[112px]">
-              Get Started
-            </button>
+            <div data-aos="zoom-in-up">
+              <button className="bg-gradient-to-br from-[#2C43D2] to-[#98B9F0] border-[2px] border-solid border-[#6C69EE] hover:border-white hover:shadow-[0_3px_20px_rgba(255,_255,_255,_1)] transition-all ease-linear duration-500 py-[12px] px-[33px] sm:text-[18px] text-[15px] font-semibold text-white rounded-[112px]">
+                Get Started
+              </button>
+            </div>
           </div>
         </div>
         <img src={alienImg} alt="alienImg" className="w-full" />

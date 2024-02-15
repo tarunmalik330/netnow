@@ -77,30 +77,46 @@ const Tokenomics = () => {
                 src={TokenomicsAlien}
                 alt="TokenomicsAlien"
                 className=" w-full sm:max-w-[443px] max-w-[295px] sm:h-[443px]"
+                data-aos="zoom-in-up"
               />
             </div>
             <div className="lg:w-[50%] w-full lg:pt-0 pt-10 max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col">
-              <h2 className="ff_archivo text-[48px] text-white font-normal leading-[121%] mb-6 lg:text-start text-center">
+              <h2
+                className="ff_archivo text-[48px] text-white font-normal leading-[121%] mb-6 lg:text-start text-center"
+                data-aos="zoom-in-up"
+              >
                 Tokenomics
               </h2>
-              <div className=" flex items-center gap-[17px] mb-[15.5px] max-lg:justify-center">
+              <div
+                className="flex items-center gap-[17px] mb-[15.5px] max-lg:justify-center"
+                data-aos="zoom-in-up"
+              >
                 <div className="w-[41px] h-[30px] rounded-[100px] bg-[#01F1C7]"></div>
                 <p className="text-[18px] font-medium leading-[150%] text-white">
                   10% CEX Liquidity
                 </p>
               </div>
-              <div className=" flex items-center gap-[17px] mb-[26.5px] max-lg:justify-center">
+              <div
+                className="flex items-center gap-[17px] mb-[26.5px] max-lg:justify-center"
+                data-aos="zoom-in-up"
+              >
                 <div className="w-[41px] h-[30px] rounded-[100px] bg-[#01B0BC]"></div>
                 <p className="text-[18px] font-medium leading-[150%] text-white">
                   90% DEX Liquidity
                 </p>
               </div>
-              <p className="text-white font-medium xl:text-[18px] text-[16px] lg:max-w-[563px] opacity-[90%] leading-[150%] xl:mb-[32px] mb-[25px] lg:text-start text-center">
+              <p
+                className="text-white font-medium xl:text-[18px] text-[16px] lg:max-w-[563px] opacity-[90%] leading-[150%] xl:mb-[32px] mb-[25px] lg:text-start text-center"
+                data-aos="zoom-in-up"
+              >
                 Join The NFT NOW Community and Metaverse - the soon to be
                 revolutionary community that lets you learn and grow your
                 knowledge about Anything NFT and Crypto.{" "}
               </p>
-              <div className="box cursor-pointer p-[1px] rounded-[20px] max-w-[577px] relative">
+              <div
+                className="box cursor-pointer p-[1px] rounded-[20px] max-w-[577px] relative"
+                data-aos="zoom-in-up"
+              >
                 <div className="py-6 pl-6 pr-[25px]">
                   <h3 className="text-white ff_archivo mb-[12px] font-normal text-[18px] leading-[123%] ">
                     Ecosystem
@@ -127,14 +143,17 @@ const Tokenomics = () => {
             >
               FAQ
             </h4>
-            <p className="lg:max-w-[723px] font-medium opacity-[80%] leading-[161%] text-center sm:text-[18px] text-[16px] text-[#fff] mt-[16px]">
+            <p
+              className="lg:max-w-[723px] font-medium opacity-[80%] leading-[161%] text-center sm:text-[18px] text-[16px] text-[#fff] mt-[16px]"
+              data-aos="zoom-in-up"
+            >
               Join The NFT NOW Community and Metaverse - the soon to be
               revolutionary community that about Anything NFT and Crypto.
             </p>
           </div>
           <div className="container mx-auto xl:wax-w-[997px] xl:px-3 px-6 ">
             <div className="flex justify-center items-center ">
-              <div className="accordion" data-aos="fade-up">
+              <div className="accordion" data-aos="zoom-in-up">
                 {accordionData.map((item, index) => (
                   <div className="accordion-item mb-[28px]" key={index}>
                     <div
