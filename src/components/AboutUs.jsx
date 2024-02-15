@@ -26,7 +26,7 @@ const AboutUs = () => {
                 className="w-full max-w-[455px]"
               />
             </div>
-            <div className="lg:w-6/12 w-full flex justify-center pt-10 lg:pt-0 relative z-[3]">
+            <div className="lg:w-6/12 w-full flex justify-center pt-10 lg:pt-0 relative z-[5]">
               <div className="lg:max-w-[525px] w-full">
                 <h2 className="ff_archivo text-white font-normal lg:text-start text-center mb-[16px] text-[48px] leading-[121%] ">
                   About Us

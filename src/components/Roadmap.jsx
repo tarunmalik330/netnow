@@ -52,7 +52,7 @@ const Roadmap = () => {
   };
   return (
     <>
-      <div className="bg-[url('./assets/images/png/BgRoadmap.png')] lg:bg-BgSize bg-cover bg-center bg-no-repeat translate-y-[-3%] relative z-[3]">
+      <div className="bg-[url('./assets/images/png/BgRoadmap.png')] lg:bg-BgSize bg-cover bg-center bg-no-repeat translate-y-[-2%] relative z-[3]">
         <div className=" absolute right-0 blur-[124px] opacity-[70%]  w-[246px] h-[246px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
         <div className=" absolute left-0 blur-[124px] opacity-[70%]  w-[246px] h-[246px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
         <div className=" absolute left-[50%] bottom-0 right-[50%] blur-[124px] opacity-[70%]  w-[194px] h-[194px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
