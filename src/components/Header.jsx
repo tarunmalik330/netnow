@@ -8,9 +8,9 @@ import JupiterImg from "../assets/images/png/ColorfullJupiter.png";
 const Header = () => {
   const [nav, setNav] = useState(true);
   if (nav === false) {
-    document.body.classList.add("overflow-hidden");
+    document.body.classList.add("max-lg:overflow-hidden");
   } else {
-    document.body.classList.remove("overflow-hidden");
+    document.body.classList.remove("max-lg:overflow-hidden");
   }
   return (
     <>
@@ -41,11 +41,11 @@ const Header = () => {
             <ul
               className={`${
                 nav ? "left-[-100%]" : "left-0"
-              } flex max-lg:fixed max-lg:top-0 max-lg:bg-[#020202] max-lg:h-full max-lg:w-full max-lg:z-[7] max-lg:transition-all max-lg:duration-300 max-lg:ease-linear max-lg:min-h-screen max-lg:flex-col gap-6 items-center justify-center`}
+              } flex max-lg:fixed max-lg:top-0 max-lg:bg-[#020202] max-lg:h-full max-lg:w-full max-lg:z-50 max-lg:transition-all max-lg:duration-300 max-lg:ease-linear max-lg:min-h-screen max-lg:flex-col gap-6 items-center justify-center`}
             >
               <li onClick={() => setNav(!nav)}>
                 <a
-                  href=""
+                  href="#AboutUs"
                   className="text-[18px] uppercase font-medium leading-[150%] text-white hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                 >
                   About us
@@ -53,7 +53,7 @@ const Header = () => {
               </li>
               <li onClick={() => setNav(!nav)}>
                 <a
-                  href=""
+                  href="#Roadmap"
                   className="text-[18px] uppercase font-medium leading-[150%] text-white  hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                 >
                   Roadmap
@@ -61,7 +61,7 @@ const Header = () => {
               </li>
               <li onClick={() => setNav(!nav)}>
                 <a
-                  href=""
+                  href="#Nft"
                   className="text-[18px] uppercase font-medium leading-[150%] text-white  hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                 >
                   NFTs
@@ -69,7 +69,7 @@ const Header = () => {
               </li>
               <li onClick={() => setNav(!nav)}>
                 <a
-                  href=""
+                  href="#Faq"
                   className="text-[18px] uppercase font-medium leading-[150%] text-white  hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                 >
                   FAQ
@@ -88,7 +88,7 @@ const Header = () => {
             </div>
             <div
               onClick={() => setNav(!nav)}
-              className="lg:hidden w-[28px] h-[20px] relative z-[10] flex justify-between flex-col"
+              className="lg:hidden w-[28px] h-[20px] relative z-[55] flex justify-between flex-col"
             >
               <span
                 className={`${

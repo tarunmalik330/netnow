@@ -61,7 +61,10 @@ const Roadmap = () => {
           alt="Jupiter"
           className=" absolute left-0 top-[3%] z-[1] w-full max-w-[174px] "
         />
-        <div className="container xl:max-w-[1177px] mx-auto xl:px-3 px-6 xl:pt-[200px] sm:pt-[100px] pt-[140px] relative z-[1]">
+        <div
+          id="Roadmap"
+          className="container xl:max-w-[1177px] mx-auto xl:px-3 px-6 xl:pt-[200px] sm:pt-[100px] pt-[140px] relative z-[1]"
+        >
           <h2 className="ff_archivo text-white text-center font-normal leading-[121%] sm:text-[48px] text-[40px] xl:mb-[78.96px] mb-[30px]">
             Roadmap
           </h2>

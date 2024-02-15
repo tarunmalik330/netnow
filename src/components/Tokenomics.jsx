@@ -67,7 +67,10 @@ const Tokenomics = () => {
       <div className="bg-[url('./assets/images/png/BgTokenomics.png')] lg:bg-BgSize bg-center bg-cover bg-no-repeat xl:pt-[66px] relative">
         <div className=" absolute left-0 bottom-[60%] blur-[124px] opacity-[70%]  w-[194px] h-[194px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
         <div className=" absolute right-0 bottom-[60%] blur-[124px] opacity-[70%]  w-[194px] h-[194px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
-        <div className="container mx-auto xl:max-w-[1174px] xl:px-3 px-6">
+        <div
+          id="Nft"
+          className="container mx-auto xl:max-w-[1174px] xl:px-3 px-6"
+        >
           <div className=" flex flex-wrap flex-row lg:justify-between max-xl:items-center">
             <div className="xl:w-[38.8%] lg:w-[45%] w-full flex max-lg:justify-center">
               <img
@@ -113,7 +116,10 @@ const Tokenomics = () => {
           </div>
         </div>
         {/* -------------------------------Faq----------------------------------------- */}
-        <div className="xl:mt-[180px] sm:mt-[90px] mt-[40px] relative z-[1]">
+        <div
+          id="Faq"
+          className="xl:mt-[180px] sm:mt-[90px] mt-[40px] relative z-[1]"
+        >
           <div className="flex justify-center items-center flex-col sm:mb-[64px] mb-[30px] px-6">
             <h4
               className="ff_archivo uppercase text-[#FFFFFF] text-[48px] font-normal leading-[120%] text-center"
@@ -179,7 +185,7 @@ const Tokenomics = () => {
               <ul className=" flex flex-wrap sm:gap-[32px] gap-5 justify-center mb-[32px]">
                 <li>
                   <a
-                    href=""
+                    href="#About"
                     className="text-[18px] uppercase font-medium leading-[150%] text-white hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                   >
                     About us
@@ -187,7 +193,7 @@ const Tokenomics = () => {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="#Roadmap"
                     className="text-[18px] uppercase font-medium leading-[150%] text-white  hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                   >
                     Roadmap
@@ -195,7 +201,7 @@ const Tokenomics = () => {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="#Nft"
                     className="text-[18px] uppercase font-medium leading-[150%] text-white  hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                   >
                     NFTs
@@ -203,7 +209,7 @@ const Tokenomics = () => {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="#Faq"
                     className="text-[18px] uppercase font-medium leading-[150%] text-white  hover:after:w-[100%] after:w-0 after:absolute after:mx-auto after:right-0 after:bg-white after:h-[2px] relative after:left-[0] after:bottom-[-5px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                   >
                     FAQ

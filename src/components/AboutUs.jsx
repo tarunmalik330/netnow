@@ -6,28 +6,20 @@ import AboutImg from "../assets/images/png/AboutImg.png";
 const AboutUs = () => {
   return (
     <>
-      <div className="xl:mt-[150px] lg:mt-[90px] sm:mt-[80px] mt-[60px] relative">
+      <div
+        id="AboutUs"
+        className="xl:mt-[150px] lg:mt-[90px] sm:mt-[80px] mt-[60px] relative"
+      >
         <img
           src={AboutJupiter}
           alt="AboutJupiter"
           className=" absolute lg:top-[-23%] top-0 right-0 w-full max-w-[174px] z-[1] "
         />
         <div className=" absolute bottom-[43%] blur-[124px] opacity-[40%] left-[43%] w-[246px] h-[246px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse z-[1]"></div>
-        <div className=" absolute lg:top-[-23%] top-0 z-[1] blur-[124px] opacity-[70%] right-[-3%] w-[246px] h-[246px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
+        <div className=" absolute lg:top-[-23%] top-0 blur-[124px] opacity-[70%] right-[-3%] w-[246px] h-[246px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
         <div className="container xl:max-w-[1184px] mx-auto xl:px-3 px-6">
           <div className="flex flex-row items-center justify-center flex-wrap">
-            <div className="lg:w-6/12 w-full flex xl:justify-center sm:justify-start justify-center relative z-[2]">
-              {/* <div className="lg:max-w-[455px]">
-                <div className="bg-gradient-to-br from-[#016DB0] to-[#01FBC9] max-w-[455px] w-full pt-[1px] pl-[1px] pr-[1px] border-solid rounded-tl-[20px] rounded-tr-[20px] overflow-hidden">
-                  <div className="pt-[21px] pl-[21px] pr-[21.33px] bg-gradient-to-br from-[#016DB0] to-[#01FBC9]/10 backdrop-blur-md rounded-tl-[20px] rounded-tr-[20px]">
-                    <img
-                      src={AboutAlien}
-                      alt="AboutAlien"
-                      className="w-full h-full max-w-[412px] shadow-[0px,_0px,_46.70px,_10px_#374FD54D] rounded-tl-[20px] rounded-tr-[20px]"
-                    />
-                  </div>
-                </div>
-              </div> */}
+            <div className="lg:w-6/12 w-full flex xl:justify-center justify-center relative z-[2]">
               <img
                 src={AboutImg}
                 alt="AboutImg"
