@@ -7,7 +7,7 @@ import AboutUs from './components/AboutUs';
 import Header from './components/Header';
 import Roadmap from './components/Roadmap';
 import Tokenomics from './components/Tokenomics';
-import BackToTop from "./assets/images/png/BackToTop.webp"
+import BackToTop from "./assets/images/webp/BackToTop.webp"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Aos from 'aos';

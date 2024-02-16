@@ -5,10 +5,11 @@ module.exports = {
     extend: {
       backgroundSize: {
         "BgSize": '100% 100%'
-
       }
     },
   },
+
+
   plugins: [],
 }
 

@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import PageLogo from "../assets/images/png/PageLogo.png";
-import alienImg from "../assets/images/png/alienaImg.png";
-import PinkJupiter from "../assets/images/png/PinkJupiter.png";
-import JupiterImg from "../assets/images/png/ColorfullJupiter.png";
+import PageLogo from "../assets/images/webp/PageLogo.webp";
+import alienImg from "../assets/images/webp/alienaImg.webp";
+import PinkJupiter from "../assets/images/webp/PinkJupiter.webp";
+import JupiterImg from "../assets/images/webp/ColorfullJupiter.webp";
 
 const Header = () => {
   const [nav, setNav] = useState(true);
@@ -14,7 +14,7 @@ const Header = () => {
   }
   return (
     <>
-      <div className="bg-[url('./assets/images/png/BgHeader.png')] lg:bg-BgSize bg-cover bg-center bg-no-repeat relative z-[5]">
+      <div className="bg-[url('./assets/images/webp/BgHeader.webp')] lg:bg-BgSize bg-cover bg-center bg-no-repeat relative z-[5]">
         <img
           src={PinkJupiter}
           alt="PinkJupiter"

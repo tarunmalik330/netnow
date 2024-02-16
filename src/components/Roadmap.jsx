@@ -1,6 +1,6 @@
 import React from "react";
 import { GreenMark } from "./IconImg";
-import Jupiter from "../assets/images/png/RoadmapJupiter.png";
+import Jupiter from "../assets/images/webp/RoadmapJupiter.webp";
 import Slider from "react-slick";
 
 const Roadmap = () => {
@@ -52,7 +52,7 @@ const Roadmap = () => {
   };
   return (
     <>
-      <div className="bg-[url('./assets/images/png/BgRoadmap.png')] lg:bg-BgSize bg-cover bg-center bg-no-repeat translate-y-[-2%] relative z-[3]">
+      <div className="bg-[url('./assets/images/webp/BgRoadmap.webp')] lg:bg-BgSize bg-cover bg-center bg-no-repeat translate-y-[-2%] relative z-[3]">
         <div className=" absolute right-0 blur-[124px] opacity-[70%]  w-[246px] h-[246px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
         <div className=" absolute left-0 blur-[124px] opacity-[70%]  w-[246px] h-[246px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
         <div className=" absolute left-[50%] bottom-0 right-[50%] blur-[124px] opacity-[70%]  w-[194px] h-[194px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
@@ -81,7 +81,7 @@ const Roadmap = () => {
               data-aos="zoom-in-up"
             >
               <div className=" lg:block hidden w-[17%]">
-                <div className="bg-[url('./assets/images/png/BgButton.png')] bg-BgSize bg-center bg-no-repeat max-w-[187px] w-full flex justify-center items-center pt-[11px] pb-[12px]">
+                <div className="bg-[url('./assets/images/webp/BgButton.webp')] bg-BgSize bg-center bg-no-repeat max-w-[187px] w-full flex justify-center items-center pt-[11px] pb-[12px]">
                   <button className="border-solid ff_archivo font-normal text-[24px] text-white leading-[121%]">
                     2024
                   </button>
@@ -113,7 +113,7 @@ const Roadmap = () => {
               data-aos="zoom-in-up"
             >
               <div className="lg:block hidden w-[17%]">
-                <div className="bg-[url('./assets/images/png/BgButton.png')] bg-BgSize bg-center bg-no-repeat max-w-[187px] w-full flex justify-center items-center pt-[11px] pb-[12px]">
+                <div className="bg-[url('./assets/images/webp/BgButton.webp')] bg-BgSize bg-center bg-no-repeat max-w-[187px] w-full flex justify-center items-center pt-[11px] pb-[12px]">
                   <button className="border-solid ff_archivo font-normal text-[24px] text-white leading-[121%]">
                     2024
                   </button>
@@ -223,7 +223,7 @@ const Roadmap = () => {
               data-aos="zoom-in-up"
             >
               <div className="lg:block hidden w-[17%]">
-                <div className="bg-[url('./assets/images/png/BgButton.png')] bg-BgSize bg-center bg-no-repeat max-w-[187px] w-full flex justify-center items-center pt-[11px] pb-[12px]">
+                <div className="bg-[url('./assets/images/webp/BgButton.webp')] bg-BgSize bg-center bg-no-repeat max-w-[187px] w-full flex justify-center items-center pt-[11px] pb-[12px]">
                   <button className="border-solid ff_archivo font-normal text-[24px] text-white leading-[121%]">
                     2024
                   </button>
@@ -277,7 +277,7 @@ const Roadmap = () => {
             data-aos="zoom-in-up"
           >
             <div className="lg:block hidden w-[17%]">
-              <div className="bg-[url('./assets/images/png/BgButton.png')] bg-BgSize bg-center bg-no-repeat max-w-[187px] w-full flex justify-center items-center pt-[11px] pb-[12px]">
+              <div className="bg-[url('./assets/images/webp/BgButton.webp')] bg-BgSize bg-center bg-no-repeat max-w-[187px] w-full flex justify-center items-center pt-[11px] pb-[12px]">
                 <button className="border-solid ff_archivo font-normal text-[24px] text-white leading-[121%]">
                   2024
                 </button>
@@ -349,7 +349,7 @@ const Roadmap = () => {
               <div className="px-3">
                 <div className="Slider_card max-sm:mx-auto relative rounded-[20px] max-w-[363px]">
                   <div className="mt-[17px] mb-[17.88px] ml-[17.6px] mr-[16.79px] rounded-[16px]">
-                    <div className="bg-[url('./assets/images/png/SliderAlien3.png')] rounded-[16px] Img_shadow xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
+                    <div className="bg-[url('./assets/images/webp/SliderAlien3.webp')] rounded-[16px] Img_shadow xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
                       <div className="pl-[20px] pb-[20px] flex flex-col content_opacity">
                         <p className="ff_archivo text-[24px] font-normal text-white leading-[121%] mb-[6px]">
                           Evol Benji
@@ -368,7 +368,7 @@ const Roadmap = () => {
               <div className="px-3">
                 <div className="Slider_card max-sm:mx-auto relative rounded-[20px] max-w-[363px]">
                   <div className="mt-[17px] mb-[17.88px] ml-[17.6px] mr-[16.79px] rounded-[16px]">
-                    <div className="bg-[url('./assets/images/png/SliderAlien3.png')] rounded-[16px] Img_shadow xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
+                    <div className="bg-[url('./assets/images/webp/SliderAlien3.webp')] rounded-[16px] Img_shadow xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
                       <div className="pl-[20px] pb-[20px] flex flex-col content_opacity">
                         <p className="ff_archivo text-[24px] font-normal text-white leading-[121%] mb-[6px]">
                           Evol Benji
@@ -387,7 +387,7 @@ const Roadmap = () => {
               <div className="px-3">
                 <div className="Slider_card max-sm:mx-auto relative rounded-[20px] max-w-[363px]">
                   <div className="mt-[17px] mb-[17.88px] ml-[17.6px] mr-[16.79px] rounded-[16px]">
-                    <div className="bg-[url('./assets/images/png/SliderAlien1.png')] rounded-[16px] xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
+                    <div className="bg-[url('./assets/images/webp/SliderAlien1.webp')] rounded-[16px] xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
                       <div className="pl-[20px] pb-[20px] flex flex-col content_opacity">
                         <p className="ff_archivo text-[24px] font-normal text-white leading-[121%] mb-[6px]">
                           Evol Benji
@@ -406,7 +406,7 @@ const Roadmap = () => {
               <div className="px-3">
                 <div className="Slider_card max-sm:mx-auto relative rounded-[20px] max-w-[363px]">
                   <div className="mt-[17px] mb-[17.88px] ml-[17.6px] mr-[16.79px] rounded-[16px]">
-                    <div className="bg-[url('./assets/images/png/SliderAlien2.png')] rounded-[16px] Img_shadow xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
+                    <div className="bg-[url('./assets/images/webp/SliderAlien2.webp')] rounded-[16px] Img_shadow xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
                       <div className="pl-[20px] pb-[20px] flex flex-col content_opacity">
                         <p className="ff_archivo text-[24px] font-normal text-white leading-[121%] mb-[6px]">
                           Evol Benji
@@ -425,7 +425,7 @@ const Roadmap = () => {
               <div className="px-3">
                 <div className="Slider_card max-sm:mx-auto relative rounded-[20px] max-w-[363px]">
                   <div className="mt-[17px] mb-[17.88px] ml-[17.6px] mr-[16.79px] rounded-[16px]">
-                    <div className="bg-[url('./assets/images/png/SliderAlien2.png')] rounded-[16px] Img_shadow xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
+                    <div className="bg-[url('./assets/images/webp/SliderAlien2.webp')] rounded-[16px] Img_shadow xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
                       <div className="pl-[20px] pb-[20px] flex flex-col content_opacity">
                         <p className="ff_archivo text-[24px] font-normal text-white leading-[121%] mb-[6px]">
                           Evol Benji
@@ -444,7 +444,7 @@ const Roadmap = () => {
               <div className="px-3">
                 <div className="Slider_card max-sm:mx-auto relative rounded-[20px] max-w-[363px]">
                   <div className="mt-[17px] mb-[17.88px] ml-[17.6px] mr-[16.79px] rounded-[16px]">
-                    <div className="bg-[url('./assets/images/png/SliderAlien1.png')] rounded-[16px] Img_shadow xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
+                    <div className="bg-[url('./assets/images/webp/SliderAlien1.webp')] rounded-[16px] Img_shadow xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
                       <div className="pl-[20px] pb-[20px] flex flex-col content_opacity">
                         <p className="ff_archivo text-[24px] font-normal text-white leading-[121%] mb-[6px]">
                           Evol Benji
@@ -463,7 +463,7 @@ const Roadmap = () => {
               <div className="px-3">
                 <div className="Slider_card relative rounded-[20px] max-w-[363px]">
                   <div className="mt-[17px] mb-[17.88px] ml-[17.6px] mr-[16.79px] rounded-[16px]">
-                    <div className="bg-[url('./assets/images/png/SliderAlien1.png')] Img_shadow rounded-[16px] xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
+                    <div className="bg-[url('./assets/images/webp/SliderAlien1.webp')] Img_shadow rounded-[16px] xl:bg-BgSize bg-center bg-cover bg-no-repeat h-[340px] w-full max-w-[330px] flex items-end">
                       <div className="pl-[20px] pb-[20px] flex flex-col content_opacity">
                         <p className="ff_archivo text-[24px] font-normal text-white leading-[121%] mb-[6px]">
                           Evol Benji

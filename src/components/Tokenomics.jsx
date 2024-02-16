@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import TokenomicsAlien from "../assets/images/png/TokenomicsAlien.png";
-import PageLogo from "../assets/images/png/PageLogo.png";
+import TokenomicsAlien from "../assets/images/webp/TokenomicsAlien.webp";
+import PageLogo from "../assets/images/webp/PageLogo.webp";
 import {
   InstagramIcon,
   TwitterIcon,
@@ -64,7 +64,7 @@ const Tokenomics = () => {
   ];
   return (
     <>
-      <div className="bg-[url('./assets/images/png/BgTokenomics.png')] lg:bg-BgSize bg-center bg-cover bg-no-repeat xl:pt-[66px] relative">
+      <div className="bg-[url('./assets/images/webp/BgTokenomics.webp')] lg:bg-BgSize bg-center bg-cover bg-no-repeat xl:pt-[66px] relative">
         <div className=" absolute left-0 bottom-[60%] blur-[124px] opacity-[70%]  w-[194px] h-[194px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
         <div className=" absolute right-0 bottom-[60%] blur-[124px] opacity-[70%]  w-[194px] h-[194px] rounded-[50%] bg-gradient-to-l from-[#523BFF] to-[#FF00F6] animate-pulse"></div>
         <div

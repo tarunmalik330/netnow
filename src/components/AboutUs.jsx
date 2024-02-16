@@ -1,6 +1,6 @@
 import React from "react";
-import AboutJupiter from "../assets/images/png/AboutJuipter.png";
-import AboutImg from "../assets/images/png/AboutImg.png";
+import AboutJupiter from "../assets/images/webp/AboutJuipter.webp";
+import AboutImg from "../assets/images/webp/AboutImg.webp";
 
 const AboutUs = () => {
   return (
