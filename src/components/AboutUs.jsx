@@ -7,7 +7,7 @@ const AboutUs = () => {
     <>
       <div
         id="AboutUs"
-        className="xl:mt-[150px] lg:mt-[90px] sm:mt-[80px] mt-[60px] relative"
+        className="xl:mt-[150px] lg:mt-[90px] sm:mt-[80px] mt-[50px] relative"
       >
         <img
           src={AboutJupiter}
@@ -29,13 +29,13 @@ const AboutUs = () => {
             <div className="lg:w-6/12 w-full flex justify-center pt-10 lg:pt-0 relative z-[5]">
               <div className="lg:max-w-[525px] w-full">
                 <h2
-                  className="ff_archivo text-white font-normal lg:text-start text-center mb-[16px] text-[48px] leading-[121%]"
+                  className="ff_archivo text-white font-normal lg:text-start text-center mb-[16px] sm:text-[48px] text-[35px] leading-[121%]"
                   data-aos="zoom-in-up"
                 >
                   About Us
                 </h2>
                 <p
-                  className="text-white opacity-[80%] xl:text-[18px] text-[17px] lg:text-start text-center font-medium lg:max-w-[525px] mb-[16px] leading-[150%]"
+                  className="text-white opacity-[80%] xl:text-[18px] sm:text-[17px] text-[15px] lg:text-start text-center font-medium lg:max-w-[525px] mb-[16px] leading-[150%]"
                   data-aos="zoom-in-up"
                 >
                   Join The NFT NOW Community and Metaverse - the soon to be
@@ -43,7 +43,7 @@ const AboutUs = () => {
                   knowledge about Anything NFT and Crypto.{" "}
                 </p>
                 <p
-                  className="text-white opacity-[80%] xl:text-[18px] text-[17px] lg:text-start text-center lg:max-w-[519px] font-medium xl:mb-[40px] mb-[20px]"
+                  className="text-white opacity-[80%] xl:text-[18px] sm:text-[17px] text-[15px] lg:text-start text-center lg:max-w-[519px] font-medium xl:mb-[40px] mb-[20px]"
                   data-aos="zoom-in-up"
                 >
                   Our development team is creating a information packed online

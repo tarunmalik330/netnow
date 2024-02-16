@@ -63,10 +63,10 @@ const Roadmap = () => {
         />
         <div
           id="Roadmap"
-          className="container xl:max-w-[1177px] mx-auto xl:px-3 px-6 xl:pt-[200px] sm:pt-[100px] pt-[90px] relative z-[1]"
+          className="container xl:max-w-[1177px] mx-auto xl:px-3 px-6 xl:pt-[200px] sm:pt-[100px] pt-[110px] relative z-[1]"
         >
           <h2
-            className="ff_archivo text-white text-center font-normal leading-[121%] sm:text-[48px] text-[40px] xl:mb-[78.96px] mb-[20px]"
+            className="ff_archivo text-white text-center font-normal leading-[121%] sm:text-[48px] text-[35px] xl:mb-[78.96px] mb-[20px]"
             data-aos="zoom-in-up"
           >
             Roadmap
@@ -337,7 +337,7 @@ const Roadmap = () => {
               See our latest collection
             </h2>
             <p
-              className="text-center text-white opacity-[80%] sm:text-[18px] text-[16px] font-semibold max-w-[721px] leading-[150%]"
+              className="text-center text-white opacity-[80%] xl:text-[18px] sm:text-[17px] text-[15px] font-semibold max-w-[721px] leading-[150%]"
               data-aos="zoom-in-up"
             >
               Join The NFT NOW Community and Metaverse - the soon to be

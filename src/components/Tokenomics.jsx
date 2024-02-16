@@ -82,7 +82,7 @@ const Tokenomics = () => {
             </div>
             <div className="lg:w-[50%] w-full lg:pt-0 pt-10 max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col">
               <h2
-                className="ff_archivo text-[48px] text-white font-normal leading-[121%] mb-6 lg:text-start text-center"
+                className="ff_archivo sm:text-[48px] text-[35px] text-white font-normal leading-[121%] mb-6 lg:text-start text-center"
                 data-aos="zoom-in-up"
               >
                 Tokenomics
@@ -106,7 +106,7 @@ const Tokenomics = () => {
                 </p>
               </div>
               <p
-                className="text-white font-medium xl:text-[18px] text-[16px] lg:max-w-[563px] opacity-[90%] leading-[150%] xl:mb-[32px] mb-[25px] lg:text-start text-center"
+                className="text-white font-medium xl:text-[18px] sm:text-[17px] text-[15px] lg:max-w-[563px] opacity-[90%] leading-[150%] xl:mb-[32px] mb-[25px] lg:text-start text-center"
                 data-aos="zoom-in-up"
               >
                 Join The NFT NOW Community and Metaverse - the soon to be
@@ -134,17 +134,17 @@ const Tokenomics = () => {
         {/* -------------------------------Faq----------------------------------------- */}
         <div
           id="Faq"
-          className="xl:mt-[180px] sm:mt-[90px] mt-[40px] relative z-[1]"
+          className="xl:mt-[180px] sm:mt-[90px] mt-[50px] relative z-[1]"
         >
           <div className="flex justify-center items-center flex-col sm:mb-[64px] mb-[30px] px-6">
             <h4
-              className="ff_archivo uppercase text-[#FFFFFF] text-[48px] font-normal leading-[120%] text-center"
+              className="ff_archivo uppercase text-[#FFFFFF] sm:text-[48px] text-[35px] font-normal leading-[120%] text-center"
               data-aos="fade-up"
             >
               FAQ
             </h4>
             <p
-              className="lg:max-w-[723px] font-medium opacity-[80%] leading-[161%] text-center sm:text-[18px] text-[16px] text-[#fff] mt-[16px]"
+              className="lg:max-w-[723px] font-medium opacity-[80%] leading-[161%] text-center xl:text-[18px] sm:text-[17px] text-[15px] text-[#fff] mt-[16px]"
               data-aos="zoom-in-up"
             >
               Join The NFT NOW Community and Metaverse - the soon to be
