@@ -192,7 +192,7 @@ const Tokenomics = () => {
         </div>
         {/* -----------------------------footer--------------------------- */}
         <div className="xl:mt-[186px] relative z-[1]">
-          <div className="container mx-auto xl:max-w-[1174px] xl:px-3 px-6 xl:pt-[100px] sm:pt-[80px] pt-[40px] pb-[25px]">
+          <div className="container mx-auto xl:max-w-[1174px] xl:px-3 px-6 xl:pt-[100px] sm:pt-[80px] pt-[30px] pb-[25px]">
             <div className=" flex justify-center flex-col items-center">
               <a className="mb-[32px]" href="#">
                 <img
